@@ -1,0 +1,136 @@
+#order-composition .dishes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.order-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.form-block {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: tomato;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-buttons {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.form-buttons button {
+    padding: 16px 44px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-buttons button[type="reset"] {
+    background: #f1eee9;
+    color: #333;
+    border: none;
+}
+
+.form-buttons button[type="reset"]:hover {
+    background: #e0d9d0;
+}
+
+.form-buttons button[type="submit"] {
+    background: tomato;
+    color: white;
+    border: none;
+}
+
+.form-buttons button[type="submit"]:hover {
+    background: #e55a2b;
+}
+
+.time-hint {
+    color: #888;
+    font-size: 14px;
+}
+
+.remove-btn {
+    background: #ffcccc;
+    color: #cc0000;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background: #cc0000;
+    color: white;
+}
+
+.empty-order-message {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+}
+
+@media (max-width: 900px) {
+    .order-form {
+        grid-template-columns: 1fr;
+    }
+}

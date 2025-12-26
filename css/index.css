@@ -1,0 +1,79 @@
+#about img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    border-radius: 16px;
+    display: block;
+    margin: 30px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+#about p {
+    font-size: 19px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #555;
+}
+
+#advantages ul {
+    list-style: none;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#advantages li {
+    background: #fff5f0;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    border: 3px solid #ffd4bc;
+    box-shadow: 0 5px 15px rgba(255, 107, 53, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#advantages li:hover {
+    transform: translateY(-5px);
+}
+
+#advantages li::before {
+    content: "✓ ";
+    color: #ff6b35;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#popular-dishes table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    font-size: 17px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border: 2px solid #ff6b35;
+}
+
+#popular-dishes th, #popular-dishes td {
+    padding: 18px 20px;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+#popular-dishes th {
+    background: #ff6b35;
+    color: white;
+    font-weight: 600;
+}
+
+#popular-dishes tr:nth-child(even) {
+    background-color: #fff9f5;
+}
+
+#popular-dishes tr:hover {
+    background-color: #ffeee2;
+}

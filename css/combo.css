@@ -1,0 +1,83 @@
+#combo-section {
+    margin: 80px 0;
+    text-align: center;
+}
+
+#combo-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin: 60px 0 20px;
+}
+
+.combos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.combo-item {
+    background: white;
+    border-radius: 35px;
+    padding: 30px;
+    filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.combo-item:hover {
+    transform: translateY(-10px);
+}
+
+.combo-dishes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.combo-dish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.combo-dish img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.combo-dish img:hover {
+    transform: translateY(-5px) scale(1.1);
+}
+
+.combo-dish p {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+.dessert-note {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .combos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .combos-grid {
+        grid-template-columns: 1fr;
+    }
+}

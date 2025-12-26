@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    color: #333;
+    background-color: #fffaf0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background: linear-gradient(135deg, #ff8c42, #ff6b35);
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+nav a#active {
+    color: black;
+}
+
+nav a:hover {
+    background-color: rgba(255,255,255,0.2);
+    transform: translateY(-3px);
+}
+
+main {
+    padding: 60px 0;
+}
+
+section {
+    background: white;
+    margin-bottom: 60px;
+    padding: 45px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+}
+
+h2 {
+    text-align: center;
+    font-size: 34px;
+    color: #ff6b35;
+    margin-bottom: 35px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+footer p,
+footer a {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

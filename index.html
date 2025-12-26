@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обед без хлопот — Доставка бизнес-ланчей</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Шрифты -->
+      <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+    <!-- 1. NAVBAR (Bootstrap + tomato акцент) -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-2 text-tomato" href="index.html">Обед без хлопот</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-4">
+                    <li class="nav-item"><a class="nav-link active fw-medium" href="#">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="menu.html">Собрать ланч</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="order.html">Оформить заказ</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="orders-history.html">Заказы</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero py-5">
+        <div class="container pt-5" style="padding-top: 120px;">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">
+                        Горячий бизнес-ланч<br>
+                        <span class="text-tomato">за 40 минут</span>
+                    </h1>
+                    <p class="lead fs-4 text-secondary mb-5">
+                        Свежие ингредиенты, сбалансированное меню и быстрая доставка по Москве
+                    </p>
+                    <a href="menu.html" class="btn btn-tomato btn-lg px-5 py-3 shadow">Собрать ланч</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/main-pic.png"
+                         alt="Бизнес-ланч" class="img-fluid rounded-4 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПРЕИМУЩЕСТВА -->
+    <section class="py-3 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 display-6 fw-bold">Наши преимущества</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card border-0 shadow-sm h-100 text-center p-4 hover-card">
+                        <div class="icon-box bg-tomato text-white mb-4">
+                            <i class="bi bi-truck fs-2"></i>
+                        </div>
+                        <h5 class="fw-bold">Быстрая доставка</h5>
+                        <p class="text-muted">40–50 минут по Москве</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-sm h-100 text-center p-4 hover-card">
+                        <div class="icon-box bg-tomato text-white mb-4">
+                            <i class="bi bi-flower1 fs-2"></i>
+                        </div>
+                        <h5 class="fw-bold">Свежие продукты</h5>
+                        <p class="text-muted">Готовим только из самых свежих ингредиентов</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-sm h-100 text-center p-4 hover-card">
+                        <div class="icon-box bg-tomato text-white mb-4">
+                            <i class="bi bi-currency-dollar fs-2"></i>
+                        </div>
+                        <h5 class="fw-bold">Приятные цены</h5>
+                        <p class="text-muted">От 420 ₽ за полный ланч</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-sm h-100 text-center p-4 hover-card">
+                        <div class="icon-box bg-tomato text-white mb-4">
+                            <i class="bi bi-star-fill fs-2"></i>
+                        </div>
+                        <h5 class="fw-bold">4.9 из 5</h5>
+                        <p class="text-muted">На основе отзывов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-3 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 display-6 fw-bold">Наши лучшие блюда</h2>
+
+            <!-- Grid: 1 колонка на мобильных, 2 на планшетах, 3 на десктопах -->
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+                <div class="col">
+                    <div class="card border-0 shadow-sm h-100 hover-card overflow-hidden">
+                        <img src="img/shrimppasta.jpg"
+                            class="card-img-top img-fluid" alt="Паста с креветками" style="height: 200px; object-fit: cover;">
+                        <div class="card-body text-center p-4">
+                            <h5 class="card-title fw-bold">Лучшее главное блюдо - Паста с креветками</h5>
+                            <p class="text-muted small mb-3">
+                                Паста · Креветки
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center px-3">
+                                <span class="fs-4 fw-bold text-tomato">340 ₽</span>
+                                <a href="menu.html" class="btn btn-tomato btn-sm px-4">Выбрать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-0 shadow-sm h-100 hover-card overflow-hidden">
+                        <img src="img/caprese.jpg"
+                            class="card-img-top img-fluid" alt="Салат капрезе с моцареллой" style="height: 200px; object-fit: cover;">
+                        <div class="card-body text-center p-4">
+                            <h5 class="card-title fw-bold">Лучший стартер - Капрезе с моцареллой</h5>
+                            <p class="text-muted small mb-3">
+                                Базелик · Помидоры ·  Моцарелла · Заправка
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center px-3">
+                                <span class="fs-4 fw-bold text-tomato">350 ₽</span>
+                                <a href="menu.html" class="btn btn-tomato btn-sm px-4">Выбрать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-0 shadow-sm h-100 hover-card overflow-hidden">
+                        <img src="img/chocolatecake.jpg"
+                            class="card-img-top img-fluid" alt="Брауни" style="height: 200px; object-fit: cover;">
+                        <div class="card-body text-center p-4">
+                            <h5 class="card-title fw-bold">Лучший дессерт - Шоколадный торт</h5>
+                            <p class="text-muted small mb-3">
+                                Шоколадный бисквит · Шоколадный конфитюр
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center px-3">
+                                <span class="fs-4 fw-bold text-tomato">270 ₽</span>
+                                <a href="menu.html" class="btn btn-tomato btn-sm px-4">Выбрать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="menu.html" class="btn btn-tomato btn-lg px-5 py-3">Смотреть меню →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- КОНТАКТЫ + ФОРМА -->
+    <section id="contacts" class="py-3 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 display-6 fw-bold">Обратная связь</h2>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="bg-white p-5 rounded-4 shadow">
+                        <form class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Ваше имя" required>
+                                    <div class="invalid-feedback">Обязательное поле</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control form-control-lg" placeholder="Телефон" required>
+                                    <div class="invalid-feedback">Обязательное поле</div>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" rows="4" placeholder="Сообщение (по желанию)"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-tomato w-100 btn-lg">Отправить</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="fw-bold mb-4">Контакты</h4>
+                    <p class="fs-5 mb-3"><i class="bi bi-telephone-fill text-tomato me-3"></i> +7 (800) 555-35-35</p>
+                    <p class="fs-5 mb-3"><i class="bi bi-whatsapp text-tomato me-3"></i> +7 (800) 555-35-35</p>
+                    <p class="fs-5 mb-3"><i class="bi bi-envelope-fill text-tomato me-3"></i> obedbezkhlopot@mail.ru</p>
+                    <p class="fs-5 mb-4"><i class="bi bi-clock text-tomato me-3"></i> Пн–Пт 06:00–23:00</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="btn btn-outline-tomato btn-lg rounded-circle"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="btn btn-outline-tomato btn-lg rounded-circle"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-outline-tomato btn-lg rounded-circle"><i class="bi bi-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacts">
+        <div class="container">
+            <p>© 2025 Обед без хлопот — доставка бизнес-ланчей в Москве</p>
+            <p>Тел: <a href="tel:+78005553535">+7 (800) 555-35-35</a> | WhatsApp: <a href="https://wa.me/78005553535">+7 (800) 555-35-35</a></p>
+            <p>Email: <a href="mailto:obedbezkhlopot@mail.ru">obedbezkhlopot@mail.ru</a></p>
+            <p>Адрес: г. Москва, ул. Примерная, д. 10, офис 305</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

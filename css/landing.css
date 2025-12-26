@@ -1,0 +1,46 @@
+:root {
+    --tomato: tomato;
+    --tomato-dark: #e54533;
+}
+
+.text-tomato { color: var(--tomato) !important; }
+.bg-tomato { background-color: var(--tomato) !important; }
+
+.btn-tomato {
+    background-color: var(--tomato);
+    border-color: var(--tomato);
+    color: white;
+}
+.btn-tomato:hover {
+    background-color: var(--tomato-dark);
+    border-color: var(--tomato-dark);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(255,99,71,.4);
+}
+
+.btn-outline-tomato {
+    color: var(--tomato);
+    border-color: var(--tomato);
+}
+.btn-outline-tomato:hover {
+    background-color: var(--tomato);
+    border-color: var(--tomato);
+    color: white;
+}
+
+.hover-lift {
+    transition: all .3s ease;
+}
+.hover-lift:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,.15) !important;
+}
+
+.card {
+    transition: all .3s ease;
+}
+.hover-card {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,.15) !important;
+}
